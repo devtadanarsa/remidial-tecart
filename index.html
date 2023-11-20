@@ -9,20 +9,41 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Metal+Mania&family=Roboto+Mono:wght@300;400;500&display=swap');
 
-            .font-metal-mania{
-                font-family: 'Metal Mania', sans-serif;
-            }
-
-            .font-iceberg{
-                font-family: 'Iceberg', sans-serif;
-            }
-
-            .font-roboto{
-                font-family: 'Roboto Mono', sans-serif;
-            }
+            .font-metal-mania{font-family: 'Metal Mania', sans-serif;}
+            .font-iceberg{font-family: 'Iceberg', sans-serif;}
+            .font-roboto{font-family: 'Roboto Mono', sans-serif;}
         </style>
     </head>
+
     <body>
-        
+        <div class="bg-[#001632] relative">
+            <img src="images/half-background.jpeg" class="max-h-screen">
+            <div class="text-white bg-[#001632] absolute top-24 right-[150px] px-12 py-24">
+                <h1 class="font-metal-mania text-[80px] flex justify-center">TECART INSIDER</h1>
+                <p class="max-w-[650px] text-[25px] font-iceberg">
+                    We are organization base on Udayana university, we share 
+                    our perspective about the world to student in engineering faculty.
+                </p>
+                <div class="mt-12">
+                    <div class="flex items-center font-roboto">
+                        <img src="images/check-icon.svg" class="p-1 bg-white rounded-full">
+                        <p class="ml-4">Mainly talk programming, ui/ux, networking, business intelligent.</p>
+                    </div>
+                    <div class="flex items-center font-roboto mt-4">
+                        <img src="images/check-icon.svg" class="p-1 bg-white rounded-full">
+                        <p class="ml-4">Analyzing with AI, with comprehensive algorithm</p>
+                    </div>
+                    <div class="flex items-center font-roboto mt-4">
+                        <img src="images/check-icon.svg" class="p-1 bg-white rounded-full">
+                        <p class="ml-4">And many more!!!</p>
+                    </div>
+                    <form class="font-roboto mt-12">
+                        <h2>Email Address : </h2>
+                        <input class="w-full mt-4 px-2 py-3 text-black rounded-md">
+                        <button type="submit" class="bg-[#2777c2] w-full mt-4 px-2 py-3 rounded-2xl">Subscribe to Monthly Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
